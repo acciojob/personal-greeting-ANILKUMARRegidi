@@ -16,7 +16,7 @@ class Greetings extends Component {
             <div>
                 <label htmlFor="input">Enter your name:</label>
                 <input id="input" value={this.state.value} onChange={this.onchangeText} />
-                {this.state.value ? <p>{this.state.value} !</p> : null}
+                {this.state.value ? <p>{this.state.value}!</p> : null}
             </div>
         );
     }
