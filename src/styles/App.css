@@ -1,1 +1,11 @@
-
+.grt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    gap:5px;
+}
+#input{
+    width:fit-content;
+}

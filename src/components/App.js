@@ -1,5 +1,5 @@
 import React, { Component } from "react";  // Corrected import statement
-
+import "./styles/App.css";
 class Greetings extends Component {
     constructor(props) {
         super(props);
