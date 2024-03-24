@@ -6,7 +6,7 @@ class Greetings extends Component {
         this.state = { value: "" };
     }
 
-    onchangeText = (event) => {  // Modified method to accept event parameter
+    onChangeText = (event) => {  // Modified method to accept event parameter
         const newValue = event.target.value;
         this.setState({ value: newValue });
     }
@@ -15,7 +15,7 @@ class Greetings extends Component {
         return (
             <div>
                 <label htmlFor="input">Enter your name:</label>
-                <input id="input" value={this.state.value} onChange={this.onchangeText} />
+                <input id="input" value={this.state.value} onChange={this.onChangeText} />
                 {this.state.value ? <p>{this.state.value}!</p> : null}
             </div>
         );
