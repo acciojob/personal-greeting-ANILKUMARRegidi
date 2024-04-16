@@ -6,7 +6,7 @@ class Greetings extends Component {
         this.state = { value: "" };
     }
 
-    onChangeText = (event) => {  // Modified method to accept event parameter
+    onChangeText = (event) => {
         const newValue = event.target.value;
         this.setState({ value: newValue });
     }
